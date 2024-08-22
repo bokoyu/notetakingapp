@@ -1,0 +1,18 @@
+<header class="p-3 bg-dark text-white">
+    <div class="container-fluid">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none fw-bold fs-2">
+          Notes.
+        </a>
+        <div class="d-flex ms-auto flex-wrap gap-3">
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-auto" method="post" action="/dashboard/search" role="search">
+                <input type="search" name="searchTerm" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+              </form>
+      
+              <div class="text-end">
+                <a href="/logout" type="button" class="btn btn-outline-light me-2">Sign-Out</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  </header>
